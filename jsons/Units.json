@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Navy SEAL",
+    "unitType": "Gunpowder",
+    "uniqueTo": "America",
+    "replaces": "Marine",
+    "movement": 3,
+    "strength": 75,
+    "cost": 350,
+    "requiredTech": "Plastics",
+    "uniques": [
+      "Can embark immediately",
+      "Pills roads",
+      "Ignores terrain cost",
+      "[+25]% Strength in [Water] tiles",
+      "[+20]% Strength when attacking"
+    ]
+  },
+  {
+    "name": "Special Operations Forces",
+    "unitType": "Gunpowder",
+    "replaces": "Infantry",
+    "movement": 3,
+    "strength": 80,
+    "cost": 380,
+    "requiredTech": "Plastics",
+    "uniques": [
+      "Invisible to non-adjacent units",
+      "Ignores terrain cost",
+      "Can pass through impassable tiles"
+    ]
+  },
+  {
+    "name": "Delta Force",
+    "unitType": "Gunpowder",
+    "replaces": "Mechanized Infantry",
+    "movement": 4,
+    "strength": 95,
+    "cost": 450,
+    "requiredTech": "Mobile Tactics",
+    "uniques": [
+      "May attack extra turns",
+      "Bonus vs Cities [50]%",
+      "Ignores ZOC"
+    ]
+  },
+  {
+    "name": "M1 Abrams",
+    "unitType": "Armor",
+    "replaces": "Modern Armor",
+    "movement": 5,
+    "strength": 110,
+    "cost": 500,
+    "requiredResource": "Oil",
+    "requiredTech": "Mobile Tactics",
+    "uniques": [
+      "Can move after attacking",
+      "Penalty when attacking cities [-33]%",
+      "[+15]% Strength when attacking"
+    ]
+  },
+  {
+    "name": "Arleigh Burke Destroyer",
+    "unitType": "WaterModern",
+    "replaces": "Destroyer",
+    "movement": 7,
+    "strength": 65,
+    "rangedStrength": 65,
+    "range": 2,
+    "cost": 400,
+    "requiredResource": "Oil",
+    "requiredTech": "Combined Arms",
+    "uniques": [
+      "Bonus vs Submarines [100]%",
+      "Can see invisible units",
+      "Intercepts air attacks [40]% probability"
+    ]
+  },
+  {
+    "name": "Nimitz Aircraft Carrier",
+    "unitType": "WaterModern",
+    "replaces": "Carrier",
+    "movement": 6,
+    "strength": 60,
+    "cost": 550,
+    "requiredResource": "Oil",
+    "requiredTech": "Electronics",
+    "uniques": [
+      "Can carry [5] [Aircraft] units",
+      "Cannot attack"
+    ]
+  },
+  {
+    "name": "Virginia Submarine",
+    "unitType": "WaterModern",
+    "replaces": "Nuclear Submarine",
+    "movement": 6,
+    "strength": 80,
+    "rangedStrength": 90,
+    "range": 3,
+    "cost": 500,
+    "requiredResource": "Uranium",
+    "requiredTech": "Telecommunications",
+    "uniques": [
+      "Invisible to non-adjacent units",
+      "Can carry [2] [Missile] units",
+      "Can enter ice tiles"
+    ]
+  },
+  {
+    "name": "A-10 Warthog",
+    "unitType": "MilitaryAircraft",
+    "replaces": "Jet Fighter",
+    "movement": 1,
+    "strength": 0,
+    "rangedStrength": 85,
+    "range": 6,
+    "cost": 420,
+    "requiredResource": "Oil",
+    "requiredTech": "Lasers",
+    "uniques": [
+      "Bonus vs Armor [75]%",
+      "Bonus vs Land units [50]%"
+    ]
+  },
+  {
+    "name": "F-16 Fighting Falcon",
+    "unitType": "MilitaryAircraft",
+    "replaces": "Jet Fighter",
+    "movement": 1,
+    "strength": 0,
+    "rangedStrength": 75,
+    "range": 8,
+    "cost": 400,
+    "requiredResource": "Oil",
+    "requiredTech": "Radar",
+    "uniques": [
+      "Intercepts air attacks [100]% probability",
+      "Bonus vs Aircraft [30]%"
+    ]
+  },
+  {
+    "name": "F-35 Lightning II",
+    "unitType": "MilitaryAircraft",
+    "replaces": "Jet Fighter",
+    "movement": 1,
+    "strength": 0,
+    "rangedStrength": 90,
+    "range": 9,
+    "cost": 480,
+    "requiredResource": "Oil",
+    "requiredTech": "Stealth",
+    "uniques": [
+      "Evasion [50]%",
+      "Can be placed on Aircraft Carriers",
+      "Air Recon"
+    ]
+  },
+  {
+    "name": "F-22 Raptor",
+    "unitType": "MilitaryAircraft",
+    "replaces": "Jet Fighter",
+    "movement": 1,
+    "strength": 0,
+    "rangedStrength": 105,
+    "range": 10,
+    "cost": 550,
+    "requiredResource": "Oil",
+    "requiredTech": "Stealth",
+    "uniques": [
+      "Evasion [75]%",
+      "Intercepts air attacks [100]% probability",
+      "Bonus vs Aircraft [50]%"
+    ]
+  }
+]
